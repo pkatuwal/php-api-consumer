@@ -112,6 +112,10 @@ https://github.com/APIs-guru/graphql-apis
     +   **toArray**
     +   **toJson**
     +   **toCollection**
+5.  **ssl** method 
+    +   either true or false, By default its **True**
+6.  **timeout** method 
+    +   you can pass second value, By Default its **30 seconds**
 
 ### Testing
 

@@ -45,8 +45,8 @@ class Executor
         $this->graphQl=null;
         $this->method = $this->getMethod();
         $this->headers = $this->getAuthorizationHeaders();
-        $this->timeout=$this->apiConsumer::$consumerPayload->getTimeOut();
-        $this->sslVerify=$this->apiConsumer::$consumerPayload->getSslVerify();
+        $this->timeout=$this->apiConsumer->timeout();
+        $this->sslVerify=$this->apiConsumer->ssl();
         //replace Headers global in case of graphql
         $this->replaceHeadersForGraphQl();
     }
