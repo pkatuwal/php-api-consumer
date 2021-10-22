@@ -14,6 +14,7 @@
             "email": "pramod.katuwal@worldlink.com.np"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "guzzlehttp/guzzle": "^7.4"
     },
