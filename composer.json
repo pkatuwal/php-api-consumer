@@ -1,0 +1,23 @@
+{
+    "name": "pramod/php-api-consumer",
+    "description": "Php Api Consumer to consume external Url",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pramod\\PhpApiConsumer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pramod katuwal",
+            "email": "pramod.katuwal@worldlink.com.np"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    }
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Api Consumer" tests="1" assertions="0" failures="0" errors="0" time="0.321696">
+    <testsuite name="Pramod\PhpApiConsumer\Test\ExampleTest" file="/home/pramod/worldlink/php-api-consumer/tests/ExampleTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.321696">
+      <testcase name="testTrueIsTrue" class="Pramod\PhpApiConsumer\Test\ExampleTest" file="/home/pramod/worldlink/php-api-consumer/tests/ExampleTest.php" line="14" assertions="0" time="0.321696">
+        <system-out>Array
+(
+    [data] =&gt; Array
+        (
+            [id] =&gt; 1402459
+            [user_description] =&gt; pramodk_home
+            [user_serial] =&gt; 414C434CB393EBCA
+            [software_version] =&gt; 3FE46606BGBA08
+            [hardware_version] =&gt; 3FE47831CBAA
+            [model] =&gt; G-140W-G
+            [oltip] =&gt; 10.0.0.176
+            [oltname] =&gt; KSNT
+            [hostname] =&gt; olt-ksnt-01
+            [oltvendor] =&gt; Nokia
+            [config_version] =&gt; ALCL-v2
+            [outer_vlan] =&gt; 3876
+            [acs_port] =&gt; 8558
+            [cust_acs_port] =&gt; 5001
+            [olt] =&gt; 469
+            [gponslot] =&gt; 0/2
+            [ponport] =&gt; 11
+            [ont_id] =&gt; 24
+            [omci_profile_id] =&gt; 
+            [omci_profile_name] =&gt; 
+            [line_profile] =&gt; 
+            [srv_profile] =&gt; 
+            [splitter_id] =&gt; 322066
+            [splitter_port_id] =&gt; 596626
+            [splitter_port] =&gt; 3
+            [router_type] =&gt; 1
+            [services] =&gt; mgmt/ipoe/voip
+            [drop_wire_length] =&gt; 100
+            [latlon] =&gt; 27.6562326,85.3131633
+            [power_level] =&gt; -20
+            [circuit_id] =&gt; 764753
+            [fiber_core_model] =&gt; 
+            [total_cores] =&gt; 
+            [core] =&gt; 
+            [port_conn_type] =&gt; 
+            [wire_conn_type] =&gt; 
+            [converter] =&gt; 
+            [onu_conn_type] =&gt; 
+            [cu_wire_conn_type] =&gt; 
+            [cu_adapter] =&gt; 
+            [cu_patchcord] =&gt; 
+            [mapped_by] =&gt; arjun.shrestha
+            [mapped_on] =&gt; 2019-11-16 13:33:59
+            [updated_by] =&gt; sandeep.adhikari
+            [updated_on] =&gt; 2021-09-12 21:09:13
+            [source] =&gt; MIGRATION
+            [status] =&gt; REPROVISION
+            [pay_plan] =&gt; 1254
+            [plan_category_id] =&gt; 125447
+            [ac_status] =&gt; Renewed
+            [ac_disable] =&gt; N
+            [expiry_date] =&gt; 2021-11-14 00:01:54
+            [create_date] =&gt; 2016-07-15 00:00:00
+            [up_bw] =&gt; 20480
+            [down_bw] =&gt; 20480
+            [ipoe_mac] =&gt; e8d0.b9ad.c005
+            [onu_mac] =&gt; e8d0b9adc004
+            [device_id] =&gt; E8D0B9-G%252D140W%252DG-ALCLB393EBCA
+            [handler] =&gt; EXP
+            [rem_days] =&gt; 23
+        )
+
+    [status_code] =&gt; 200
+)
+</system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>

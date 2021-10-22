@@ -1,0 +1,71 @@
+TAP version 13
+ok 1 - Pramod\PhpApiConsumer\Test\ExampleTest::testTrueIsTrue
+# Array
+# (
+#     [data] => Array
+#         (
+#             [id] => 1402459
+#             [user_description] => pramodk_home
+#             [user_serial] => 414C434CB393EBCA
+#             [software_version] => 3FE46606BGBA08
+#             [hardware_version] => 3FE47831CBAA
+#             [model] => G-140W-G
+#             [oltip] => 10.0.0.176
+#             [oltname] => KSNT
+#             [hostname] => olt-ksnt-01
+#             [oltvendor] => Nokia
+#             [config_version] => ALCL-v2
+#             [outer_vlan] => 3876
+#             [acs_port] => 8558
+#             [cust_acs_port] => 5001
+#             [olt] => 469
+#             [gponslot] => 0/2
+#             [ponport] => 11
+#             [ont_id] => 24
+#             [omci_profile_id] => 
+#             [omci_profile_name] => 
+#             [line_profile] => 
+#             [srv_profile] => 
+#             [splitter_id] => 322066
+#             [splitter_port_id] => 596626
+#             [splitter_port] => 3
+#             [router_type] => 1
+#             [services] => mgmt/ipoe/voip
+#             [drop_wire_length] => 100
+#             [latlon] => 27.6562326,85.3131633
+#             [power_level] => -20
+#             [circuit_id] => 764753
+#             [fiber_core_model] => 
+#             [total_cores] => 
+#             [core] => 
+#             [port_conn_type] => 
+#             [wire_conn_type] => 
+#             [converter] => 
+#             [onu_conn_type] => 
+#             [cu_wire_conn_type] => 
+#             [cu_adapter] => 
+#             [cu_patchcord] => 
+#             [mapped_by] => arjun.shrestha
+#             [mapped_on] => 2019-11-16 13:33:59
+#             [updated_by] => sandeep.adhikari
+#             [updated_on] => 2021-09-12 21:09:13
+#             [source] => MIGRATION
+#             [status] => REPROVISION
+#             [pay_plan] => 1254
+#             [plan_category_id] => 125447
+#             [ac_status] => Renewed
+#             [ac_disable] => N
+#             [expiry_date] => 2021-11-14 00:01:54
+#             [create_date] => 2016-07-15 00:00:00
+#             [up_bw] => 20480
+#             [down_bw] => 20480
+#             [ipoe_mac] => e8d0.b9ad.c005
+#             [onu_mac] => e8d0b9adc004
+#             [device_id] => E8D0B9-G%252D140W%252DG-ALCLB393EBCA
+#             [handler] => EXP
+#             [rem_days] => 23
+#         )
+# 
+#     [status_code] => 200
+# )
+1..1
