@@ -1,6 +1,10 @@
 {
     "name": "pramod/php-api-consumer",
     "description": "Php Api Consumer to consume external Url",
+    "keywords": [
+        "pramod",
+        "php-api-consumer"
+    ],
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -16,6 +20,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "php": "^7.4",
         "guzzlehttp/guzzle": "^7.4"
     },
     "require-dev": {
