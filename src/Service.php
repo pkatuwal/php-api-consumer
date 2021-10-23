@@ -11,8 +11,13 @@ use Pramod\PhpApiConsumer\Services\Executor;
 class Service
 {
     public static $consumerPayload;
+    private static $instance = null;
+
+    public $config;
+
     public function __construct()
     {
+        $this->config = parse_ini_file('Config/settings.ini', true);
     }
 
 
@@ -22,6 +27,14 @@ class Service
         return new static;
     }
 
+    public static function getInstance()
+    {
+        if (self::$instance == null) {
+            self::$instance = new Service();
+        }
+
+        return self::$instance;
+    }
     public function via($requestedUri)
     {
 
@@ -40,15 +53,23 @@ class Service
     public function ssl($enable = true)
     {
         $this->ssl = $enable;
+        return $this;
     }
     public function timeout($time = 30)
     {
         $this->timeout = $time;
+        return $this;
     }
 
     public function attach(string $attributes)
     {
         $this->attachAttributes = $attributes;
+        return $this;
+    }
+
+    public function retry(int $times = 10)
+    {
+        $this->retry = $times;
         return $this;
     }
 
@@ -61,5 +82,12 @@ class Service
     public function toArray()
     {
         return json_decode($this->toJson(), true);
+    }
+
+    public function __get($name)
+    {
+        if(in_array($name, $this->config)){
+            return $this->config[$name];
+        }
     }
 }

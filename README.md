@@ -116,6 +116,8 @@ https://github.com/APIs-guru/graphql-apis
     +   either true or false, By default its **True**
 6.  **timeout** method 
     +   you can pass second value, By Default its **30 seconds**
+7.  **retry** method 
+    +   Pass Int value to retry external api, By Default it doesnt retry.
 
 ### Testing
 
